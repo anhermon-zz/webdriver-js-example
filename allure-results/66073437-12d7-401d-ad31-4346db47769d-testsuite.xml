@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1457352468410" stop="1457352468457">
+	<name>Test suite</name>
+	<title>Test suite</title>
+	<test-cases>
+		<test-case start="1457352468410" stop="1457352468457" status="failed">
+			<name>Test case</name>
+			<title>Test case</title>
+			<description></description>
+			<labels>
+			</labels>
+			<steps>
+			</steps>
+			<attachments>
+			</attachments>
+			<failure>
+				<message>ReferenceError: LoginPage is not defined</message>
+				<stack-trace>ReferenceError: LoginPage is not defined
+    at RegistrationPage.firstNameTB (C:\workspace\webdriver-js-example\pages\RegistrationPage.js:41:29)
+    at RegistrationPage.doRegister (C:\workspace\webdriver-js-example\pages\RegistrationPage.js:55:26)
+    at Object.&lt;anonymous&gt; (C:\workspace\webdriver-js-example\spec\suites\example.spec.js:13:38)
+    at attemptAsync (C:\workspace\webdriver-js-example\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1916:24)
+    at QueueRunner.run (C:\workspace\webdriver-js-example\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1871:9)
+    at QueueRunner.execute (C:\workspace\webdriver-js-example\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1859:10)
+    at Spec.Env.queueRunnerFactory (C:\workspace\webdriver-js-example\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:697:35)
+    at Spec.execute (C:\workspace\webdriver-js-example\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:359:10)
+    at Object.fn (C:\workspace\webdriver-js-example\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:2479:37)
+    at attemptAsync (C:\workspace\webdriver-js-example\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1916:24)</stack-trace>
+			</failure>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

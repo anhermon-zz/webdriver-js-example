@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1457356292280" stop="1457356322350">
+	<name>Test suite</name>
+	<title>Test suite</title>
+	<test-cases>
+		<test-case start="1457356292280" stop="1457356322334" status="broken">
+			<name>Test case</name>
+			<title>Test case</title>
+			<description></description>
+			<labels>
+			</labels>
+			<steps>
+				<step start="1457356299078" stop="1457356302920" status="passed">
+					<name>Navigate to URL:http://localhost:8080/#/login</name>
+					<title>Navigate to URL:http://localhost:8080/#/login</title>
+					<steps>
+					</steps>
+				</step>
+				<step start="1457356304925" stop="1457356305038" status="passed">
+					<name>Get Element:By(xpath, //a[text()=&quot;Register&quot;])</name>
+					<title>Get Element:By(xpath, //a[text()=&quot;Register&quot;])</title>
+					<steps>
+						<step start="1457356304926" stop="1457356305030" status="passed">
+							<name>Wait for element:By(xpath, //a[text()=&quot;Register&quot;]) to be located and visible</name>
+							<title>Wait for element:By(xpath, //a[text()=&quot;Register&quot;]) to be located and visible</title>
+							<steps>
+							</steps>
+						</step>
+					</steps>
+				</step>
+				<step start="1457356305039" stop="1457356305102" status="passed">
+					<name>Click element :By(xpath, //a[text()=&quot;Register&quot;])</name>
+					<title>Click element :By(xpath, //a[text()=&quot;Register&quot;])</title>
+					<steps>
+						<step start="1457356305039" stop="1457356305052" status="passed">
+							<name>Wait for element to be visible</name>
+							<title>Wait for element to be visible</title>
+							<steps>
+							</steps>
+						</step>
+						<step start="1457356305052" stop="1457356305064" status="passed">
+							<name>Wait for element to be enabled</name>
+							<title>Wait for element to be enabled</title>
+							<steps>
+							</steps>
+						</step>
+					</steps>
+				</step>
+				<step start="1457356305102" stop="1457356305306" status="passed">
+					<name>Type: &quot;Angel&quot; into:By(xpath, //input[@id=&quot;firstName&quot;]) text box</name>
+					<title>Type: &quot;Angel&quot; into:By(xpath, //input[@id=&quot;firstName&quot;]) text box</title>
+					<steps>
+						<step start="1457356305103" stop="1457356305167" status="passed">
+							<name>Get Element:By(xpath, //input[@id=&quot;firstName&quot;])</name>
+							<title>Get Element:By(xpath, //input[@id=&quot;firstName&quot;])</title>
+							<steps>
+								<step start="1457356305105" stop="1457356305156" status="passed">
+									<name>Wait for element:By(xpath, //input[@id=&quot;firstName&quot;]) to be located and visible</name>
+									<title>Wait for element:By(xpath, //input[@id=&quot;firstName&quot;]) to be located and visible</title>
+									<steps>
+									</steps>
+								</step>
+							</steps>
+						</step>
+					</steps>
+				</step>
+				<step start="1457356305306" stop="1457356305908" status="passed">
+					<name>Type: &quot;Hermon&quot; into:By(xpath, //input[@name=&quot;lastName&quot;]) text box</name>
+					<title>Type: &quot;Hermon&quot; into:By(xpath, //input[@name=&quot;lastName&quot;]) text box</title>
+					<steps>
+						<step start="1457356305307" stop="1457356305342" status="passed">
+							<name>Get Element:By(xpath, //input[@name=&quot;lastName&quot;])</name>
+							<title>Get Element:By(xpath, //input[@name=&quot;lastName&quot;])</title>
+							<steps>
+								<step start="1457356305307" stop="1457356305331" status="passed">
+									<name>Wait for element:By(xpath, //input[@name=&quot;lastName&quot;]) to be located and visible</name>
+									<title>Wait for element:By(xpath, //input[@name=&quot;lastName&quot;]) to be located and visible</title>
+									<steps>
+									</steps>
+								</step>
+							</steps>
+						</step>
+					</steps>
+				</step>
+				<step start="1457356305908" stop="1457356306094" status="passed">
+					<name>Type: &quot;anhermon&quot; into:By(xpath, //input[@id=&quot;username&quot;]) text box</name>
+					<title>Type: &quot;anhermon&quot; into:By(xpath, //input[@id=&quot;username&quot;]) text box</title>
+					<steps>
+						<step start="1457356305908" stop="1457356305948" status="passed">
+							<name>Get Element:By(xpath, //input[@id=&quot;username&quot;])</name>
+							<title>Get Element:By(xpath, //input[@id=&quot;username&quot;])</title>
+							<steps>
+								<step start="1457356305908" stop="1457356305934" status="passed">
+									<name>Wait for element:By(xpath, //input[@id=&quot;username&quot;]) to be located and visible</name>
+									<title>Wait for element:By(xpath, //input[@id=&quot;username&quot;]) to be located and visible</title>
+									<steps>
+									</steps>
+								</step>
+							</steps>
+						</step>
+					</steps>
+				</step>
+				<step start="1457356306094" stop="1457356306252" status="passed">
+					<name>Type: &quot;123456&quot; into:By(xpath, //input[@id=&quot;password&quot;]) text box</name>
+					<title>Type: &quot;123456&quot; into:By(xpath, //input[@id=&quot;password&quot;]) text box</title>
+					<steps>
+						<step start="1457356306094" stop="1457356306132" status="passed">
+							<name>Get Element:By(xpath, //input[@id=&quot;password&quot;])</name>
+							<title>Get Element:By(xpath, //input[@id=&quot;password&quot;])</title>
+							<steps>
+								<step start="1457356306094" stop="1457356306118" status="passed">
+									<name>Wait for element:By(xpath, //input[@id=&quot;password&quot;]) to be located and visible</name>
+									<title>Wait for element:By(xpath, //input[@id=&quot;password&quot;]) to be located and visible</title>
+									<steps>
+									</steps>
+								</step>
+							</steps>
+						</step>
+					</steps>
+				</step>
+				<step start="1457356306252" stop="1457356306289" status="passed">
+					<name>Get Element:By(xpath, //button[text()=&quot;Register&quot;])</name>
+					<title>Get Element:By(xpath, //button[text()=&quot;Register&quot;])</title>
+					<steps>
+						<step start="1457356306252" stop="1457356306275" status="passed">
+							<name>Wait for element:By(xpath, //button[text()=&quot;Register&quot;]) to be located and visible</name>
+							<title>Wait for element:By(xpath, //button[text()=&quot;Register&quot;]) to be located and visible</title>
+							<steps>
+							</steps>
+						</step>
+					</steps>
+				</step>
+				<step start="1457356306289" stop="1457356306332" status="passed">
+					<name>Click element :By(xpath, //button[text()=&quot;Register&quot;])</name>
+					<title>Click element :By(xpath, //button[text()=&quot;Register&quot;])</title>
+					<steps>
+						<step start="1457356306289" stop="1457356306299" status="passed">
+							<name>Wait for element to be visible</name>
+							<title>Wait for element to be visible</title>
+							<steps>
+							</steps>
+						</step>
+						<step start="1457356306299" stop="1457356306311" status="passed">
+							<name>Wait for element to be enabled</name>
+							<title>Wait for element to be enabled</title>
+							<steps>
+							</steps>
+						</step>
+					</steps>
+				</step>
+				<step start="1457356308334" stop="1457356308538" status="passed">
+					<name>Type: &quot;anhermon&quot; into:By(xpath, //input[@id=&quot;username&quot;]) text box</name>
+					<title>Type: &quot;anhermon&quot; into:By(xpath, //input[@id=&quot;username&quot;]) text box</title>
+					<steps>
+						<step start="1457356308335" stop="1457356308385" status="passed">
+							<name>Get Element:By(xpath, //input[@id=&quot;username&quot;])</name>
+							<title>Get Element:By(xpath, //input[@id=&quot;username&quot;])</title>
+							<steps>
+								<step start="1457356308336" stop="1457356308375" status="passed">
+									<name>Wait for element:By(xpath, //input[@id=&quot;username&quot;]) to be located and visible</name>
+									<title>Wait for element:By(xpath, //input[@id=&quot;username&quot;]) to be located and visible</title>
+									<steps>
+									</steps>
+								</step>
+							</steps>
+						</step>
+					</steps>
+				</step>
+				<step start="1457356308538" stop="1457356308678" status="passed">
+					<name>Type: &quot;123456&quot; into:By(xpath, //input[@id=&quot;password&quot;]) text box</name>
+					<title>Type: &quot;123456&quot; into:By(xpath, //input[@id=&quot;password&quot;]) text box</title>
+					<steps>
+						<step start="1457356308538" stop="1457356308569" status="passed">
+							<name>Get Element:By(xpath, //input[@id=&quot;password&quot;])</name>
+							<title>Get Element:By(xpath, //input[@id=&quot;password&quot;])</title>
+							<steps>
+								<step start="1457356308539" stop="1457356308559" status="passed">
+									<name>Wait for element:By(xpath, //input[@id=&quot;password&quot;]) to be located and visible</name>
+									<title>Wait for element:By(xpath, //input[@id=&quot;password&quot;]) to be located and visible</title>
+									<steps>
+									</steps>
+								</step>
+							</steps>
+						</step>
+					</steps>
+				</step>
+				<step start="1457356308678" stop="1457356308711" status="passed">
+					<name>Get Element:By(xpath, //button[text()=&quot;Login&quot;])</name>
+					<title>Get Element:By(xpath, //button[text()=&quot;Login&quot;])</title>
+					<steps>
+						<step start="1457356308678" stop="1457356308704" status="passed">
+							<name>Wait for element:By(xpath, //button[text()=&quot;Login&quot;]) to be located and visible</name>
+							<title>Wait for element:By(xpath, //button[text()=&quot;Login&quot;]) to be located and visible</title>
+							<steps>
+							</steps>
+						</step>
+					</steps>
+				</step>
+				<step start="1457356308711" stop="1457356308753" status="passed">
+					<name>Click element :By(xpath, //button[text()=&quot;Login&quot;])</name>
+					<title>Click element :By(xpath, //button[text()=&quot;Login&quot;])</title>
+					<steps>
+						<step start="1457356308712" stop="1457356308726" status="passed">
+							<name>Wait for element to be visible</name>
+							<title>Wait for element to be visible</title>
+							<steps>
+							</steps>
+						</step>
+						<step start="1457356308726" stop="1457356308734" status="passed">
+							<name>Wait for element to be enabled</name>
+							<title>Wait for element to be enabled</title>
+							<steps>
+							</steps>
+						</step>
+					</steps>
+				</step>
+				<step start="1457356308754" stop="1457356309832" status="broken">
+					<name>Get Element:By(xpath, //li[@ng-repeat=&quot;user in vm.allUsers&quot;][contains(text(),&quot;Angel Hermon&quot;)]/a[text()=&quot;Delete&quot;])</name>
+					<title>Get Element:By(xpath, //li[@ng-repeat=&quot;user in vm.allUsers&quot;][contains(text(),&quot;Angel Hermon&quot;)]/a[text()=&quot;Delete&quot;])</title>
+					<steps>
+						<step start="1457356308754" stop="1457356309822" status="broken">
+							<name>Wait for element:By(xpath, //li[@ng-repeat=&quot;user in vm.allUsers&quot;][contains(text(),&quot;Angel Hermon&quot;)]/a[text()=&quot;Delete&quot;]) to be located and visible</name>
+							<title>Wait for element:By(xpath, //li[@ng-repeat=&quot;user in vm.allUsers&quot;][contains(text(),&quot;Angel Hermon&quot;)]/a[text()=&quot;Delete&quot;]) to be located and visible</title>
+							<steps>
+							</steps>
+						</step>
+					</steps>
+				</step>
+				<step start="1457356309832" stop="1457356309873" status="passed">
+					<name>Click element :By(xpath, //li[@ng-repeat=&quot;user in vm.allUsers&quot;][contains(text(),&quot;Angel Hermon&quot;)]/a[text()=&quot;Delete&quot;])</name>
+					<title>Click element :By(xpath, //li[@ng-repeat=&quot;user in vm.allUsers&quot;][contains(text(),&quot;Angel Hermon&quot;)]/a[text()=&quot;Delete&quot;])</title>
+					<steps>
+						<step start="1457356309832" stop="1457356309842" status="passed">
+							<name>Wait for element to be visible</name>
+							<title>Wait for element to be visible</title>
+							<steps>
+							</steps>
+						</step>
+						<step start="1457356309842" stop="1457356309848" status="passed">
+							<name>Wait for element to be enabled</name>
+							<title>Wait for element to be enabled</title>
+							<steps>
+							</steps>
+						</step>
+					</steps>
+				</step>
+				<step start="1457356314874" stop="1457356314910" status="passed">
+					<name>Get Element:By(xpath, //a[text()=&quot;Logout&quot;])</name>
+					<title>Get Element:By(xpath, //a[text()=&quot;Logout&quot;])</title>
+					<steps>
+						<step start="1457356314874" stop="1457356314901" status="passed">
+							<name>Wait for element:By(xpath, //a[text()=&quot;Logout&quot;]) to be located and visible</name>
+							<title>Wait for element:By(xpath, //a[text()=&quot;Logout&quot;]) to be located and visible</title>
+							<steps>
+							</steps>
+						</step>
+					</steps>
+				</step>
+				<step start="1457356314911" stop="1457356315085" status="passed">
+					<name>Click element :By(xpath, //a[text()=&quot;Logout&quot;])</name>
+					<title>Click element :By(xpath, //a[text()=&quot;Logout&quot;])</title>
+					<steps>
+						<step start="1457356314911" stop="1457356314924" status="passed">
+							<name>Wait for element to be visible</name>
+							<title>Wait for element to be visible</title>
+							<steps>
+							</steps>
+						</step>
+						<step start="1457356314924" stop="1457356314933" status="passed">
+							<name>Wait for element to be enabled</name>
+							<title>Wait for element to be enabled</title>
+							<steps>
+							</steps>
+						</step>
+					</steps>
+				</step>
+			</steps>
+			<attachments>
+			</attachments>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

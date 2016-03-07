@@ -1,0 +1,26 @@
+{
+  "name": "webdriver-js-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anhermon/webdriver-js-example.git"
+  },
+  "author": "Angel Hermon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anhermon/webdriver-js-example/issues"
+  },
+  "homepage": "https://github.com/anhermon/webdriver-js-example#readme",
+  "devDependencies": {
+    "config": "^1.19.0",
+    "jasmine": "^2.4.1",
+    "jasmine-allure-reporter": "^0.2.3",
+    "jasmine-spec-reporter": "^2.4.0",
+    "selenium-webdriver": "^2.52.0"
+  }
+}

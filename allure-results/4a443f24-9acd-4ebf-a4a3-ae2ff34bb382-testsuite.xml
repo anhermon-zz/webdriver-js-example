@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1457352569691" stop="1457352569738">
+	<name>Test suite</name>
+	<title>Test suite</title>
+	<test-cases>
+		<test-case start="1457352569691" stop="1457352569723" status="failed">
+			<name>Test case</name>
+			<title>Test case</title>
+			<description></description>
+			<labels>
+			</labels>
+			<steps>
+			</steps>
+			<attachments>
+			</attachments>
+			<failure>
+				<message>TypeError: Invalid locator</message>
+				<stack-trace>TypeError: Invalid locator
+    at Object.check [as checkedLocator] (C:\workspace\webdriver-js-example\node_modules\selenium-webdriver\lib\by.js:267:9)
+    at Driver.findElement (C:\workspace\webdriver-js-example\node_modules\selenium-webdriver\lib\webdriver.js:833:18)
+    at ActionBot.getElement (C:\workspace\webdriver-js-example\infra\Actionbot.js:71:29)
+    at ActionBot.click (C:\workspace\webdriver-js-example\infra\Actionbot.js:122:29)
+    at RegistrationPage.clickRegistenBtn (C:\workspace\webdriver-js-example\pages\RegistrationPage.js:64:24)
+    at RegistrationPage.doRegister (C:\workspace\webdriver-js-example\pages\RegistrationPage.js:59:21)
+    at Object.&lt;anonymous&gt; (C:\workspace\webdriver-js-example\spec\suites\example.spec.js:13:38)
+    at attemptAsync (C:\workspace\webdriver-js-example\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1916:24)
+    at QueueRunner.run (C:\workspace\webdriver-js-example\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1871:9)
+    at QueueRunner.execute (C:\workspace\webdriver-js-example\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1859:10)</stack-trace>
+			</failure>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

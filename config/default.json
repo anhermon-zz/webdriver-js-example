@@ -1,0 +1,60 @@
+{
+    "tests" : {
+        "urlRoot" : "http://localhost:8080",
+        "server" : {
+            "remote" : false
+        },
+        "pathToChromeDriver" : "./bin/chromedriver_win32/chromedriver.exe",
+        "pathToIEDriver" : "./bin/IEDriver_win32",
+        "actionbot" : {
+            "timeouts": {
+                "default": {
+                    "responsive": 1000,
+                    "functional": 10000
+                }
+            },
+            "screenshots": {
+                "enabled" : true
+            }
+        },
+        "pages" : {
+            "LoginPage" : {
+                "timeouts" : {
+                    "default" : {
+                        "responsive": 1000,
+                        "functional": 10000
+                    }
+                }
+            }
+        },
+        "widgets" :{
+            "LeftHandBar" :{
+                "timeouts": {
+                    "default" : {
+                        "responsive": 1000,
+                        "functional": 10000
+                    }
+                }
+            }
+        },
+        "specs" : {
+            "example" : {
+                "tests" : {
+                    "example" : {
+                        "data" : {
+                            "user" : {
+                                "firstName" : "Angel",
+                                "lastName" : "Hermon",
+                                "userName" : "anhermon",
+                                "password" : "123456"
+                            }
+                        }
+                    }
+                },
+                "jasmine" : {
+                    "timeout" : 180000
+                }
+            }
+        }
+    }
+}
